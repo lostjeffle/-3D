@@ -3,14 +3,59 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>爱心跳动,3D拖拽搬</title>
+<title>书里总爱写到喜出望外的傍晚</title>
   <link rel="stylesheet" href="./css/style.css">
 
+  <style>
+    /* 添加的文字样式 */
+    .overlay-text {
+      position: absolute;
+      top: 30%;
+      left: 50%;
+      transform: translateX(-50%);
+      color: #ffffff;
+      font-family: 'Arial', sans-serif;
+      text-align: center;
+      text-shadow: 0 0 10px rgba(255, 51, 102, 0.7);
+      z-index: 100;
+      pointer-events: none;
+      width: 100%;
+    }
+    
+    .main-title {
+      font-size: 2em;
+      margin-bottom: 10px;
+      opacity: 0.6;
+    }
+    
+    .sub-title {
+      font-size: 1.5em;
+      opacity: 0.8;
+    }
+    
+    .instructions {
+      position: absolute;
+      bottom: 30px;
+      left: 50%;
+      transform: translateX(-50%);
+      color: white;
+      font-size: 1.2em;
+      background: rgba(0,0,0,0.5);
+      padding: 10px 20px;
+      border-radius: 20px;
+    }
+  </style>
+
 </head>
-<h1>爱心跳动,抖音ID:不吃蟹黄 作品参考bootstrapmb,引入three基于canvas制作</h1>
-<!-- 抖音ID:不吃蟹黄 -->
+<!-- <h1>小蔡不是小菜 女士</h1>  -->
+
+  <!-- 添加的文字层 -->
+  <div class="overlay-text">
+    <div class="main-title">小蔡不是小菜</div>
+  </div>
 
 <body>
+  <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=100% height=86 src="https://music.163.com/outchain/player?type=2&id=1841989645&auto=1&height=66"><br></iframe>
 
   <script src='./js/three.min.js'></script>
   <!-- <script src='./js/MeshSurfaceSampler.js'></script> -->
